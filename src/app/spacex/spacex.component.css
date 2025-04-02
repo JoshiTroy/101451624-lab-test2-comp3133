@@ -1,0 +1,262 @@
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px;
+  color: #333;
+}
+
+.filter-section {
+  max-width: 800px;
+  margin: 0 auto 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.filter-group label {
+  font-weight: bold;
+  color: #333;
+  font-size: 14px;
+}
+
+.filter-group select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-width: 150px;
+  font-size: 14px;
+}
+
+.reset-button {
+  padding: 8px 16px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  height: 35px;
+}
+
+.reset-button:hover {
+  background-color: #d32f2f;
+}
+
+.missions-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.mission-item {
+  display: flex;
+  align-items: flex-start;
+  background-color: #b3e5fc;
+  margin-bottom: 2px;
+  padding: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.mission-item:hover {
+  background-color: #81d4fa;
+}
+
+.mission-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.mission-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.default-icon {
+  font-size: 24px;
+  text-align: center;
+}
+
+.mission-content {
+  flex: 1;
+}
+
+.mission-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  gap: 10px;
+}
+
+.mission-name {
+  font-weight: bold;
+}
+
+.mission-year {
+  color: #666;
+}
+
+.launch-status {
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 12px;
+}
+
+.launch-status.success {
+  background-color: #4caf50;
+  color: white;
+}
+
+.launch-status.failure {
+  background-color: #f44336;
+  color: white;
+}
+
+.mission-details {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #333;
+}
+
+/* Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  border-radius: 8px;
+  padding: 24px;
+  width: 90%;
+  max-width: 800px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #666;
+}
+
+.close-button:hover {
+  color: #333;
+}
+
+.mission-detail-header {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.mission-patch {
+  width: 120px;
+  height: 120px;
+}
+
+.mission-patch img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.mission-info h2 {
+  color: #333;
+  margin: 0 0 16px 0;
+}
+
+.mission-section {
+  margin-bottom: 24px;
+}
+
+.mission-section h3 {
+  color: #333;
+  margin: 0 0 12px 0;
+  font-size: 18px;
+}
+
+.info-row {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.info-row label {
+  font-weight: bold;
+  width: 120px;
+  color: #666;
+}
+
+.links-container {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.link-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.2s;
+}
+
+.link-button:hover {
+  background-color: #e0e0e0;
+}
+
+.link-icon {
+  font-size: 18px;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  margin-top: 40px;
+  border-top: 1px solid #ddd;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-content p {
+  margin: 5px 0;
+  color: #666;
+  font-size: 14px;
+}
